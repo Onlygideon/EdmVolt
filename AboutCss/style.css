@@ -27,7 +27,7 @@ abbr{
 }
 
 .showcase.active{
-    right:300px;
+    right:220px;
 }
 
 .showcase header{
@@ -116,7 +116,7 @@ abbr{
     position: absolute;
     top:0;
     right:0;
-    width:300px;
+    width:220px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -130,8 +130,8 @@ abbr{
 }
 
 .Menu ul li a{
-    text-decoration : none;
-    font-size: 24px;
+    text-decoration: none;
+    font-size: 18px;
     color: black;
     font-weight: 550;
 }
@@ -148,9 +148,11 @@ abbr{
         bottom: 0;
     }
     .text p{
-        line-height: 1em;
-        font-weight: 600;
+        line-height: 1.5em;
+        font-weight: 400;
         font-size: 0.9em;
+        margin: 30px 0;
+        max-width: 800px;
     }
     .Social{
         bottom: 0;
@@ -160,6 +162,28 @@ abbr{
         font-size: 12px;
     }
 }
+
+@media(max-width: 468px){
+    .showcase, .showcase header{
+        padding: 40px; 
+    }
+    .Social{
+        bottom: 0;
+    }
+    .Social{
+        bottom: 0;
+    }
+
+    .logo{
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .showcase header{
+        font-size: 12px;
+    }
+}
+
 
 
 

@@ -36,7 +36,7 @@ abbr{
 }
 
 .showcase.active{
-    right:300px;
+    right:220px;
 }
 
 .showcase header{
@@ -125,7 +125,7 @@ abbr{
     position: absolute;
     top:0;
     right:0;
-    width:300px;
+    width:220px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ abbr{
 
 .Menu ul li a{
     text-decoration : none;
-    font-size: 24px;
+    font-size: 18px;
     color: black;
     font-weight: 550;
 }
@@ -157,7 +157,7 @@ abbr{
         bottom: 0;
     }
     .text p{
-        line-height: 1em;
+        line-height: 2em;
         font-weight: 600;
         font-size: 0.9em;
     }
