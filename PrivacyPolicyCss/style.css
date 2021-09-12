@@ -157,11 +157,18 @@ abbr{
         bottom: 0;
     }
     .text p{
-        line-height: 2em;
+        line-height: 1em;
         font-weight: 600;
+        font-size: 0.9em;
     }
     .Social{
         bottom: 0;
     }
+
+    .showcase header{
+        font-size: 12px;
+    }
 }
+
+
 

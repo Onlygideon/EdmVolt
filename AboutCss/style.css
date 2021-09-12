@@ -142,20 +142,24 @@ abbr{
 
 @media(max-width: 768px){
     .showcase, .showcase header{
-        padding: 40px;
-        padding-top: 20px; 
+        padding: 40px; 
     }
     .Social{
         bottom: 0;
     }
-    .text h4{
-        font-size: 2em;
-    }
-    .text h3{
-        font-size: 1em;
+    .text p{
+        line-height: 1em;
+        font-weight: 600;
+        font-size: 0.9em;
     }
     .Social{
         bottom: 0;
+    }
+
+    .showcase header{
+        font-size: 12px;
     }
 }
+
+
 
